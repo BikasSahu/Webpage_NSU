@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ body {
+  font-family: cursive;
+ }
+ span {
+  color: crimson;
+ }
+ a {
+  text-decoration: none;
+ }
+ li {
+  list-style: none;
+ }
+ .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #1f2d39;
+  color: #fff;
+ }
+ .nav-links a {
+  color: #fff;
+ }
+ .logo {
+  font-size: 32px;
+ }
+ .menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+ }
+ .menu li:hover {
+  background-image: url("valo.jpg");
+  border-radius: 8px;
+  transition: 0.3s ease;
+ }
+ .menu li {
+  padding: 5px 14px;
+ }
+.services {
+  position: relative; 
+ }
+ .pricing {
+  padding: 1em 0;
+  position: absolute;
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+  background-color: #1f2d39;
+ }
+ .pricing li + li {
+  margin-top: 10px;
+ }
+ .pricing li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+ }
+ .pricing li:hover {
+  background-image: url("valo.jpg");
+ }
+ .services:hover .pricing{
+  display: block;
+ }
+  body {
+  background-image: url("valo.jpg");
+  background-size: cover;
+  background-position: top;
+}
+.id {
+  background-image: url("id.png");
+background-repeat: no-repeat;
+background-size: 35px;
+width: 35px;
+height: 35px;
+cursor: pointer;
+}
+.image {
+  background-image: url("Jett.png");
+background-repeat: no-repeat;
+background-size: 1000px;
+width: 1000px;
+height: 908px;
+cursor: pointer;
+}
+.image1 {
+  background-image: url("raze.png");
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  width: 1000px;
+  height: 908px;
+  cursor: pointer;
+}
+.image2 {
+  background-image: url("Kayo.png");
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  width: 1000px;
+  height: 908px;
+  cursor: pointer;
+}
+.image3 {
+  background-image: url("Omen.png");
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  width: 1000px;
+  height: 908px;
+  cursor: pointer;
+}
+.image4 {
+  background-image: url("Phoenix.png");
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  width: 1000px;
+  height: 908px;
+  cursor: pointer;
+}
+.image5 {
+  background-image: url("Sage.png");
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  width: 1000px;
+  height: 908px;
+  cursor: pointer;
+}
+p {
+  color: whitesmoke;
+  text-align: center;
+font-size: 150%;
+}
+p:hover {
+  color: crimson;
+  font-size: 300%;
+  background-color: #1f2d39;
+  text-shadow: yellow;
+}
+h5 {
+  color: whitesmoke;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+a {
+  text-decoration: none;
+}
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(wp.jpg.jpg);
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: bottom;
+  justify-content: center;
+}
+.header-content {
+  margin-bottom: 150px;
+  color: whitesmoke;
+  text-align: center;
+}
+.header-content h2 {
+  font-size: 4vmin;
+}
+.line {
+  width: 150px;
+  height: 4px;
+  background: crimson;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.header-content h1 {
+  font-size: 7vmin;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.ctn {
+  padding: 8px 15px;
+  background: crimson;
+  border-radius: 30px;
+  color: whitesmoke;
+}
